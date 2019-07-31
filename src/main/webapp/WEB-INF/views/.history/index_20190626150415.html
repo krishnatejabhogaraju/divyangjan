@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      <title>Divyang</title>
+      <link rel="shortcut icon" href="assets/img/favicon.png" />
+      <meta name="description" content="" />
+      <!-- CSS -->
+      <link href="assets/css/preload.css" rel="stylesheet" />
+      <!-- Compiled in vendors.js -->
+      <!--
+         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+         <link href="assets/css/bootstrap-switch.min.css" rel="stylesheet">
+         <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+         <link href="assets/css/animate.min.css" rel="stylesheet">
+         <link href="assets/css/slidebars.min.css" rel="stylesheet">
+         <link href="assets/css/lightbox.css" rel="stylesheet">
+         <link href="assets/css/jquery.bxslider.css" rel="stylesheet" />
+         <link href="assets/css/buttons.css" rel="stylesheet">
+         -->
+      <link href="assets/css/vendors.css" rel="stylesheet" />
+      <link href="assets/css/syntaxhighlighter/shCore.css" rel="stylesheet" />
+      <!-- RS5.0 Stylesheet -->
+      <!--<link rel="stylesheet" type="text/css" href="assets/css/settings.css">
+         <link rel="stylesheet" type="text/css" href="assets/css/layers.css">
+         <link rel="stylesheet" type="text/css" href="assets/css/navigation.css">-->
+      <!-- stepper -->
+      <!--Import Multi Step Indicator css-->
+      <link href="stepper/css/gsi-step-indicator.min.css" rel="stylesheet" />
+      <!--Import  Step Form Wizard css-->
+      <link href="stepper/css/tsf-step-form-wizard.min.css" rel="stylesheet" />
+      <!--Import  demo css-->
+      <link href="stepper/css/demo.min.css" rel="stylesheet" />
+      <!--Plugin for validation-->
+      <link href="stepper/plugin/parsley/css/parsley.css" rel="stylesheet" />
+      <!-- stepper -->
+      <link href="assets/css/style-blue.css" rel="stylesheet" title="default" />
+      <link href="assets/css/width-full.css" rel="stylesheet" title="default" />
+      <link href="assets/css/custom.css" rel="stylesheet" title="default" />
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.min.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+      <![endif]-->
+   </head>
+   <!-- Preloader -->
+   <div id="preloader">
+      <div id="status">&nbsp;</div>
+   </div>
+   <body>
+      <div class="sb-site-container">
+         <div class="boxed">
+            <header id="header-full-top" class="hidden-xs header-full">
+               <div class="container">
+                  <div class="header-full-title">
+                     <h1 class="animated fadeInRight">
+                        <a href="index-2.html"> </a>
+                     </h1>
+                  </div>
+                  <nav class="top-nav">
+                     <ul class="top-nav-social hidden-sm">
+                        <li>
+                           <a href="#" class="animated fadeIn animation-delay-8 "><i class="fa ">A-</i></a>
+                        </li>
+                        <li>
+                           <a href="#" class="animated fadeIn animation-delay-7 "><i class="fa ">A</i></a>
+                        </li>
+                        <li>
+                           <a href="#" class="animated fadeIn animation-delay-6 " ><i class="fa ">A+</i></a>
+                        </li>
+                     </ul>
+                     <div class="dropdown animated fadeInDown animation-delay-11">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                           ><i class="fa fa-user"></i> Login</a
+                           >
+                        <div class="dropdown-menu dropdown-menu-right dropdown-login-box animated flipCenter">
+                           <form role="form">
+                              <h4>Login Form</h4>
+                              <div class="form-group">
+                                 <div class="input-group login-input">
+                                    <span class="input-group-addon">
+                                       <i class="fa fa-user"></i></span>
+                                    <input type="text" class="form-control" placeholder="Username"
+                                       />
+                                 </div>
+                                 <br />
+                                 <div class="input-group login-input">
+                                    <span class="input-group-addon">
+                                       <i class="fa fa-lock"></i>
+                                    </span>
+                                    <input
+                                       type="password"
+                                       class="form-control"
+                                       placeholder="Password"
+                                       />
+                                 </div>
+                                 <div class="checkbox pull-left">
+                                    <input type="checkbox" id="checkbox_remember1" />
+                                    <label for="checkbox_remember1">
+                                    Remember me
+                                    </label>
+                                 </div>
+                                 <button
+                                    type="submit"
+                                    class="btn btn-ar btn-primary pull-right"
+                                    >
+                                 Login
+                                 </button>
+                                 <div class="clearfix"></div>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                     <!-- dropdown -->
+                     <div class="dropdown animated fadeInDown animation-delay-13">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="fa fa-microphone"></i>
+                        </a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i
+                           ></a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-search-box animated fadeInUp">
+                           <form role="form">
+                              <div class="input-group">
+                                 <input type="text" class="form-control" placeholder="Search..." />
+                                 <span class="input-group-btn">
+                                 <button class="btn btn-ar btn-primary" type="button">
+                                 Go!
+                                 </button>
+                                 </span>
+                              </div>
+                              <!-- /input-group -->
+                           </form>
+                        </div>
+                     </div>
+                     <!-- dropdown -->
+                  </nav>
+               </div>
+               <!-- container -->
+            </header>
+            <!-- header-full -->
+            <nav class="navbar navbar-default navbar-header-full navbar-dark yamm navbar-static-top" role="navigation" id="header">
+               <div class="container">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                     <span class="sr-only">Toggle navigation</span>
+                     <i class="fa fa-bars"></i>
+                     </button>
+                     <a id="ar-brand" class="navbar-brand hidden-lg hidden-md hidden-sm" href="index-2.html"> <span></span></a
+                        >
+                  </div>
+                  <!-- navbar-header -->
+                  <div
+                     class="collapse navbar-collapse"
+                     id="bs-example-navbar-collapse-1"
+                     >
+                     <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                           <a href="index.html" class="dropdown-single-link">Home</a>
+                        </li>
+                        <!-- services -->
+                        <li class="dropdown yamm-fw">
+                           <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Services</a
+                              >
+                           <ul
+                              class="dropdown-menu dropdown-menu-left animated-2x animated fadeIn"
+                              >
+                              <li>
+                                 <div class="yamm-content">
+                                    <div class="row p-b-15">
+                                       <div class="col-md-12">
+                                          <h4 class="megamenu-block-title">Services</h4>
+                                       </div>
+                                       <div class="col-lg-4 col-md-6 col-sm-6 col-megamenu">
+                                          <div class="megamenu-block">
+                                             <ul>
+                                                <li>
+                                                   <a href="HealthCare.html"
+                                                      ><i class="fa fa-caret-right"></i> Health
+                                                   Care
+                                                   </a>
+                                                </li>
+                                                <li>
+                                                   <a href="Rehabilitation.html"><i class="fa fa-caret-right"></i>
+                                                   Rehabilitation
+                                                   </a>
+                                                </li>
+                                                <li>
+                                                   <a href="Education.html"><i class="fa fa-caret-right"></i> Education
+                                                   </a>
+                                                </li>
+                                                <li>
+                                                   <a href="SkillTraining.html"><i class="fa fa-caret-right"></i> Skill
+                                                   Training & Coaching
+                                                   </a>
+                                                </li>
+                                                <li>
+                                                   <a href="ELearningContent.html"><i class="fa fa-caret-right"></i>
+                                                   E-Learning Content</a
+                                                      >
+                                                </li>
+                                             </ul>
+                                          </div>
+                                       </div>
+                                       <div class="col-lg-4 col-md-6 col-sm-6 col-megamenu">
+                                          <div class="megamenu-block">
+                                             <ul>
+                                                <li>
+                                                   <a href="EmpPrivateSector.html"
+                                                      ><i class="fa fa-caret-right"></i>
+                                                   Employment in Private sector</a
+                                                      >
+                                                </li>
+                                                <li>
+                                                   <a href="EmpPublicSector.html"
+                                                      ><i class="fa fa-caret-right"></i>
+                                                   Employment in the Public Sector</a
+                                                      >
+                                                </li>
+                                                <li>
+                                                   <a href="SelfEmployment.html"
+                                                      ><i class="fa fa-caret-right"></i>
+                                                   SelfEmployment</a
+                                                      >
+                                                </li>
+                                                <li>
+                                                   <a href="Accessibility.html"
+                                                      ><i class="fa fa-caret-right"></i>
+                                                   Accessibility</a
+                                                      >
+                                                </li>
+                                                <li>
+                                                   <a href="PwDEntitlements.html"
+                                                      ><i class="fa fa-caret-right"></i> PwD
+                                                   Entitlements & Support</a
+                                                      >
+                                                </li>
+                                             </ul>
+                                          </div>
+                                       </div>
+                                       <div class="col-lg-4 col-md-6 col-sm-6 col-megamenu">
+                                          <div class="megamenu-block">
+                                             <ul>
+                                                <li>
+                                                   <a href="KnowledgeBank .html"
+                                                      ><i class="fa fa-caret-right"></i> Knowledge
+                                                   Bank</a
+                                                      >
+                                                </li>
+                                                <li>
+                                                   <a href="MatrimonySupport.html"
+                                                      ><i class="fa fa-caret-right"></i> Matrimony
+                                                   Support</a
+                                                      >
+                                                </li>
+                                                <li>
+                                                   <a href="PwDEntertainment.html"
+                                                      ><i class="fa fa-caret-right"></i> PwD
+                                                   Entertainment</a
+                                                      >
+                                                </li>
+                                                <li>
+                                                   <a href="PwDSports.html"
+                                                      ><i class="fa fa-caret-right"></i> PwD
+                                                   Sports
+                                                   </a>
+                                                </li>
+                                                <li>
+                                                   <a href="PwDTalentcorner.html"><i class="fa fa-caret-right"></i> PwD
+                                                   Talent corner
+                                                   </a>
+                                                </li>
+                                             </ul>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+                           </ul>
+                        </li>
+                        <!-- services -->
+                        <li class="dropdown">
+                           <a href="Schemes.html" class="dropdown-single-link">Schemes</a
+                              >
+                        </li>
+                        <li class="dropdown">
+                           <a href="ActsRules.html" class="dropdown-single-link"
+                              >Acts & Rules</a
+                              >
+                        </li>
+                        <li class="dropdown">
+                           <a href="BlogsEvents.html" class="dropdown-single-link"
+                              >Blogs & Events</a
+                              >
+                        </li>
+                        <li class="dropdown">
+                           <a href="AboutUs.html" class="dropdown-single-link"
+                              >About Us</a
+                              >
+                        </li>
+                     </ul>
+                  </div>
+                  <!-- navbar-collapse -->
+               </div>
+               <!-- container -->
+            </nav>
+            <section class="carousel-section">
+               <div class="row carousel-opc-bg">
+                  <div class="col-md-7">
+                     <div
+                        id="carousel-example-generic"
+                        class="carousel carousel-razon slide"
+                        data-ride="carousel"
+                        data-interval="5000"
+                        >
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                           <div class="item active">
+                              <div>
+                                 <div class="row">
+                                    <div class="col-md-12 col-sm-7">
+                                       <div class="carousel-caption">
+                                          <div class="carousel-text">
+                                             <h1
+                                                class="animated fadeInDownBig animation-delay-7 carousel-title"
+                                                >
+                                                India’s 1st PwD Marketplace that will address
+                                                all the needs & requirements of every PwD in
+                                                India
+                                             </h1>
+                                             <h2
+                                                class="animated fadeInDownBig animation-delay-5  crousel-subtitle"
+                                                >
+                                                Our Vision
+                                             </h2>
+                                             <p
+                                                class="animated fadeInUpBig animation-delay-17"
+                                                >
+                                                <span
+                                                   >The Vision of DivyangIndia is to create a
+                                                single online platform to enable any PwD
+                                                irrespective of their disability, age,
+                                                education, background or geographical location
+                                                to access information and avail any service or
+                                                access facilities spanning a variety of
+                                                aspects such as education, Health, shelter,
+                                                Skill training, job opportunities, self-
+                                                employment, healthcare needs, social-welfare
+                                                entitlements, assistive aids, scholarships
+                                                etc</span
+                                                   >
+                                             </p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-5">
+                     <aside class="sidebar">
+                        <div
+                           class="block animated fadeInDown animation-delay-10 carousel-block"
+                           >
+                           <ul class="nav nav-tabs nav-tabs-ar" id="myTab2">
+                              <li class="active">
+                                 <a href="#fav" data-toggle="tab"> News</a>
+                              </li>
+                              <li>
+                                 <a href="#categories" data-toggle="tab">Latest Jobs</a>
+                              </li>
+                              <li><a href="#archive" data-toggle="tab">Events</a></li>
+                              <li>
+                                 <a href="#tags" data-toggle="tab">Frequently Searched</a>
+                              </li>
+                           </ul>
+                           <div class="tab-content  carousel-tab-content">
+                              <div class="tab-pane active" id="fav">
+                                 <ul class="media-list">
+                                    <li class="media">
+                                       <a class="pull-left" href="#"><img class="media-object" src="assets/img/demo/m2.jpg" width="50" height="50" alt="image" /></a>
+                                       <div class="media-body">
+                                          <p class="media-heading">
+                                             <a href="#">Umbrella Scholarship Scheme for Student with
+                                             Disabilities</a
+                                                >
+                                          </p>
+                                          <small>Sep, 28 2018</small>
+                                       </div>
+                                    </li>
+                                    <li class="media">
+                                       <a class="pull-left" href="#"
+                                          ><img
+                                          class="media-object"
+                                          src="assets/img/demo/m9.jpg"
+                                          width="50"
+                                          height="50"
+                                          alt="image"
+                                          /></a>
+                                       <div class="media-body">
+                                          <p class="media-heading">
+                                             <a href="#">Citation of National Awardees, 2018</a
+                                                >
+                                          </p>
+                                          <small>Oct, 9 2018</small>
+                                       </div>
+                                    </li>
+                                    <li class="media">
+                                       <a class="pull-left" href="#"
+                                          ><img
+                                          class="media-object"
+                                          src="assets/img/demo/m12.jpg"
+                                          width="50"
+                                          height="50"
+                                          alt="image"
+                                          /></a>
+                                       <div class="media-body">
+                                          <p class="media-heading">
+                                             <a href="#">Invitation of Applications for The National
+                                             Award for Empowe ...</a
+                                                >
+                                          </p>
+                                          <small>Dec, 30 2018</small>
+                                       </div>
+                                    </li>
+                                 </ul>
+                              </div>
+                              <div class="tab-pane" id="archive">
+                                 <!-- <h3 class="post-title no-margin-top">Archives</h3> -->
+                                 <ul class="simple">
+                                    <li><a href="#">December 2012</a></li>
+                                    <li><a href="#">January 2013</a></li>
+                                    <li><a href="#">February 2013</a></li>
+                                    <li><a href="#">March 2013</a></li>
+                                    <li><a href="#">April 2013</a></li>
+                                 </ul>
+                              </div>
+                              <div class="tab-pane" id="categories">
+                                 <!-- <h3 class="post-title no-margin-top">Categories</h3> -->
+                                 <ul class="simple">
+                                    <li><a href="#">Game Programming</a></li>
+                                    <li>
+                                       <a href="#">Artificial Intelligence</a>
+                                       <ul>
+                                          <li><a href="#">Artificial Life</a></li>
+                                          <li><a href="#">Neural Networks</a></li>
+                                       </ul>
+                                    </li>
+                                    <li><a href="#">Resources</a></li>
+                                    <li><a href="#">Web Developer</a></li>
+                                 </ul>
+                              </div>
+                              <div class="tab-pane" id="tags">
+                                 <!-- <h3 class="post-title">Tags</h3> -->
+                                 <div class="tags-cloud">
+                                    <a href="#" class="tag">Web</a>
+                                    <a href="#" class="tag">Artificial Intelligence</a>
+                                    <a href="#" class="tag">Programing</a>
+                                    <a href="#" class="tag">Design</a>
+                                    <a href="#" class="tag">3D</a>
+                                    <a href="#" class="tag">Games</a>
+                                    <a href="#" class="tag">Resources</a>
+                                    <a href="#" class="tag">2D</a>
+                                    <a href="#" class="tag">C++</a>
+                                    <a href="#" class="tag">Jquery</a>
+                                    <a href="#" class="tag">Javascript</a>
+                                    <a href="#" class="tag">Library</a>
+                                    <a href="#" class="tag">Windows</a>
+                                    <a href="#" class="tag">Linux</a>
+                                    <a href="#" class="tag">Cloud</a>
+                                    <a href="#" class="tag">Game developer</a>
+                                    <a href="#" class="tag">Server</a>
+                                    <a href="#" class="tag">Google</a>
+                                    <a href="#" class="tag">Bootstrap</a>
+                                    <a href="#" class="tag">Less</a>
+                                    <a href="#" class="tag">Sass</a>
+                                    <a href="#" class="tag">Engine</a>
+                                    <a href="#" class="tag">Node.js</a>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- tab-content -->
+                        </div>
+                     </aside>
+                     <!-- Sidebar -->
+                  </div>
+               </div>
+            </section>
+            <!-- carousel -->
+            <section class="margin-bottom">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-3 col-sm-6">
+                        <div class="content-box box-default animated fadeInUp animation-delay-10">
+                           <span class="icon-ar icon-ar-lg icon-ar-round icon-ar-inverse"><i class="fa fa-html5"></i
+                              ></span>
+                           <h4 class="content-box-title">Lorem ipsum dolor</h4>
+                           <p>
+                              Consectetur adipisicing elit vritatis dolor rem officia molestiae atque eveniet inventore earum quas voluptates cumque
+                           </p>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-6">
+                        <div class="content-box box-default animated fadeInUp animation-delay-14">
+                           <span class="icon-ar icon-ar-lg icon-ar-round icon-ar-inverse"><i class="fa fa-css3"></i
+                              ></span>
+                           <h4 class="content-box-title">Lorem ipsum dolor</h4>
+                           <p>
+                              Consectetur adipisicing elit vritatis dolor rem officia molestiae atque eveniet inventore earum quas voluptates cumque
+                           </p>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-6">
+                        <div class="content-box box-default animated fadeInUp animation-delay-16">
+                           <span class="icon-ar icon-ar-lg icon-ar-round icon-ar-inverse"><i class="fa fa-desktop"></i
+                              ></span>
+                           <h4 class="content-box-title">Lorem ipsum dolor</h4>
+                           <p>
+                              Consectetur adipisicing elit vritatis dolor rem officia molestiae atque eveniet inventore earum quas voluptates cumque
+                           </p>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-6">
+                        <div class="content-box box-default animated fadeInUp animation-delay-12">
+                           <span class="icon-ar icon-ar-lg icon-ar-round icon-ar-inverse"><i class="fa fa-flag"></i
+                              ></span>
+                           <h4 class="content-box-title">Lorem ipsum dolor</h4>
+                           <p>
+                              Consectetur adipisicing elit vritatis dolor rem officia molestiae atque eveniet inventore earum quas voluptates cumque
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="section-lines">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-4">
+                        <div class="home-devices">
+                           <h3>The template for all devices</h3>
+                           <p>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, sapiente, nam sunt rem beatae architecto cupiditate numquam consectetur dolorum aliquam suscipit adipisci expedita vel quaerat illum aperiam facere inventore officia.
+                           </p>
+                           <p>
+                              Consequuntur sed ipsum eius minima eum velit soluta accusamus omnis maiores modi quae mollitia consectetur adipisci.
+                           </p>
+                           <ul class="icon-devices">
+                              <li class="active">
+                                 <a href="#desktop" data-toggle="tab"><i class="fa fa-desktop"></i
+                                    ></a>
+                              </li>
+                              <li>
+                                 <a href="#laptop" data-toggle="tab"><i class="fa fa-laptop"></i
+                                    ></a>
+                              </li>
+                              <li>
+                                 <a href="#tablet" data-toggle="tab"><i class="fa fa-tablet"></i
+                                    ></a>
+                              </li>
+                              <li>
+                                 <a href="#mobile" data-toggle="tab"><i class="fa fa-mobile"></i
+                                    ></a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-md-8">
+                        <div class="tab-content">
+                           <div class="tab-pane active" id="desktop">
+                              <img src="assets/img/demo/mac.png" alt="" class="img-responsive" />
+                           </div>
+                           <div class="tab-pane" id="laptop">
+                              <img src="assets/img/demo/macpro.png" alt="" class="img-responsive" />
+                           </div>
+                           <div class="tab-pane" id="tablet">
+                              <img src="assets/img/demo/ipad.png" alt="" class="img-responsive" />
+                           </div>
+                           <div class="tab-pane" id="mobile">
+                              <img src="assets/img/demo/iphone.png" alt="" class="img-responsive" />
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <div class="container">
+               <section class="margin-bottom">
+                  <p class="lead lead-lg text-center primary-color margin-bottom">
+                     Knows the <strong>Artificial Reason</strong> and surprise yourself
+                  </p>
+                  <div class="row">
+                     <div class="col-md-6">
+                        <h2 class="no-margin-top">About us</h2>
+                        <p>
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, alias, nihil molestias libero corporis perferendis a quasi at.
+                        </p>
+                        <p>
+                           Eos, illum, odit nulla provident sint atque quasi necessitatibus dolores voluptatibus perspiciatis aliquid tempora possimus laudantium. Blanditiis, deleniti!
+                        </p>
+                        <p>
+                           Saepe, laborum, eligendi vitae ad excepturi officiis vel omnis quidem et dolorum rem vero explicabo consequatur mollitia nihil!
+                        </p>
+                        <p>
+                           Fuga, omnis, quo, cumque, ipsa quasi facilis voluptatibus iure veniam nostrum voluptate accusantium dolore reprehenderit. Corrupti, mollitia, maiores!
+                        </p>
+                        <p>
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit ducimus, pariatur ad ipsam et quod numquam eveniet magni aspernatur.
+                        </p>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                           <div class="panel panel-default">
+                              <div class="panel-heading panel-heading-link">
+                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                 <i class="fa fa-lightbulb-o"></i> Talent and creativity
+                                 </a>
+                              </div>
+                              <div id="collapseOne" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    <p>
+                                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati molestiae id ipsum ipsa repudiandae. Voluptatum, molestias, quas magnam repellat quos facilis sequi. Ullam optio eius deleniti dolore quasi doloribus ipsam incidunt perferendis.
+                                    </p>
+                                    <p>
+                                       Dolores, corrupti, laborum, officia sit aliquam doloremque accusantium nemo sunt veniam est incidunt perferendis minima obcaecati ex aperiam voluptatibus blanditiis eum suscipit magnam dolorum in adipisci nihil ipsam perspiciatis.
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="panel panel-default">
+                              <div class="panel-heading panel-heading-link">
+                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed">
+                                 <i class="fa fa-desktop"></i> Design and code
+                                 </a>
+                              </div>
+                              <div id="collapseTwo" class="panel-collapse collapse">
+                                 <div class="panel-body">
+                                    <p>
+                                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit dignissimos inventore cupiditate expedita saepe enim nobis nostrum? Laborum, laudantium, maiores, cupiditate, perspiciatis at ad accusamus corporis sed ipsam et velit!
+                                    </p>
+                                    <p>
+                                       Incidunt, harum itaque voluptatum asperiores recusandae explicabo maiores. Alias, quos, ex impedit at error id laborum fugit architecto qui beatae molestiae dolorum rem veritatis quia aliquam totam accusamus perferendis. Nulla!
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="panel panel-default">
+                              <div class="panel-heading panel-heading-link">
+                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapsed">
+                                 <i class="fa fa-user"></i> Quality and Support
+                                 </a>
+                              </div>
+                              <div id="collapseThree" class="panel-collapse collapse">
+                                 <div class="panel-body">
+                                    <p>
+                                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, rerum unde doloribus accusamus pariatur non expedita quibusdam velit totam obcaecati. Consequatur, deserunt, asperiores quam nisi earum voluptates animi labore tempore!
+                                    </p>
+                                    <p>
+                                       Dolorum, aliquam, totam labore saepe error a eum culpa assumenda sint laudantium ipsa iure ullam et dicta nesciunt repellendus optio voluptatibus reprehenderit odit officia fugiat necessitatibus recusandae architecto ad neque?
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <section class="margin-bottom">
+                  <h2 class="section-title">Latest Works</h2>
+                  <div class="bxslider-controls">
+                     <span id="bx-prev4"></span>
+                     <span id="bx-next4"></span>
+                  </div>
+                  <ul class="bxslider" id="latest-works">
+                     <li>
+                        <div class="img-caption-ar">
+                           <img src="assets/img/demo/w1.jpg" class="img-responsive" alt="Image" />
+                           <div class="caption-ar">
+                              <div class="caption-content">
+                                 <a href="#" class="animated fadeInDown"><i class="fa fa-search"></i>More info</a
+                                    >
+                                 <h4 class="caption-title">Title Caption</h4>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="img-caption-ar">
+                           <img
+                              src="assets/img/demo/w2.jpg"
+                              class="img-responsive"
+                              alt="Image"
+                              />
+                           <div class="caption-ar">
+                              <div class="caption-content">
+                                 <a href="#" class="animated fadeInDown"
+                                    ><i class="fa fa-search"></i>More info</a
+                                    >
+                                 <h4 class="caption-title">Title Caption</h4>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="img-caption-ar">
+                           <img
+                              src="assets/img/demo/w3.jpg"
+                              class="img-responsive"
+                              alt="Image"
+                              />
+                           <div class="caption-ar">
+                              <div class="caption-content">
+                                 <a href="#" class="animated fadeInDown"
+                                    ><i class="fa fa-search"></i>More info</a
+                                    >
+                                 <h4 class="caption-title">Title Caption</h4>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="img-caption-ar">
+                           <img
+                              src="assets/img/demo/w4.jpg"
+                              class="img-responsive"
+                              alt="Image"
+                              />
+                           <div class="caption-ar">
+                              <div class="caption-content">
+                                 <a href="#" class="animated fadeInDown"
+                                    ><i class="fa fa-search"></i>More info</a
+                                    >
+                                 <h4 class="caption-title">Title Caption</h4>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="img-caption-ar">
+                           <img
+                              src="assets/img/demo/w5.jpg"
+                              class="img-responsive"
+                              alt="Image"
+                              />
+                           <div class="caption-ar">
+                              <div class="caption-content">
+                                 <a href="#" class="animated fadeInDown"
+                                    ><i class="fa fa-search"></i>More info</a
+                                    >
+                                 <h4 class="caption-title">Title Caption</h4>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="img-caption-ar">
+                           <img
+                              src="assets/img/demo/w6.jpg"
+                              class="img-responsive"
+                              alt="Image"
+                              />
+                           <div class="caption-ar">
+                              <div class="caption-content">
+                                 <a href="#" class="animated fadeInDown"
+                                    ><i class="fa fa-search"></i>More info</a
+                                    >
+                                 <h4 class="caption-title">Title Caption</h4>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="img-caption-ar">
+                           <img
+                              src="assets/img/demo/w7.jpg"
+                              class="img-responsive"
+                              alt="Image"
+                              />
+                           <div class="caption-ar">
+                              <div class="caption-content">
+                                 <a href="#" class="animated fadeInDown"
+                                    ><i class="fa fa-search"></i>More info</a
+                                    >
+                                 <h4 class="caption-title">Title Caption</h4>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="img-caption-ar">
+                           <img
+                              src="assets/img/demo/w8.jpg"
+                              class="img-responsive"
+                              alt="Image"
+                              />
+                           <div class="caption-ar">
+                              <div class="caption-content">
+                                 <a href="#" class="animated fadeInDown"
+                                    ><i class="fa fa-search"></i>More info</a
+                                    >
+                                 <h4 class="caption-title">Title Caption</h4>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="img-caption-ar">
+                           <img
+                              src="assets/img/demo/w9.jpg"
+                              class="img-responsive"
+                              alt="Image"
+                              />
+                           <div class="caption-ar">
+                              <div class="caption-content">
+                                 <a href="#" class="animated fadeInDown"
+                                    ><i class="fa fa-search"></i>More info</a
+                                    >
+                                 <h4 class="caption-title">Title Caption</h4>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="img-caption-ar">
+                           <img
+                              src="assets/img/demo/w10.jpg"
+                              class="img-responsive"
+                              alt="Image"
+                              />
+                           <div class="caption-ar">
+                              <div class="caption-content">
+                                 <a href="#" class="animated fadeInDown"
+                                    ><i class="fa fa-search"></i>More info</a
+                                    >
+                                 <h4 class="caption-title">Title Caption</h4>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="img-caption-ar">
+                           <img
+                              src="assets/img/demo/w11.jpg"
+                              class="img-responsive"
+                              alt="Image"
+                              />
+                           <div class="caption-ar">
+                              <div class="caption-content">
+                                 <a href="#" class="animated fadeInDown"
+                                    ><i class="fa fa-search"></i>More info</a
+                                    >
+                                 <h4 class="caption-title">Title Caption</h4>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="img-caption-ar">
+                           <img
+                              src="assets/img/demo/w12.jpg"
+                              class="img-responsive"
+                              alt="Image"
+                              />
+                           <div class="caption-ar">
+                              <div class="caption-content">
+                                 <a href="#" class="animated fadeInDown"
+                                    ><i class="fa fa-search"></i>More info</a
+                                    >
+                                 <h4 class="caption-title">Title Caption</h4>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                  </ul>
+               </section>
+               <section>
+                  <p class="slogan text-center">
+                     Discover our projects and the rigorous process of
+                     <span>creation</span>. Our principles are <span>creativity</span>,
+                     <span>design</span>, <span>experience</span> and
+                     <span>knowledge</span>. We are backed by 20 years of
+                     <span>research</span>.
+                  </p>
+                  <h2 class="section-title">Our Clients</h2>
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="bxslider-controls">
+                           <span id="bx-prev5"></span>
+                           <span id="bx-next5"></span>
+                        </div>
+                        <ul class="bxslider" id="home-block">
+                           <li>
+                              <blockquote class="blockquote-color">
+                                 <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Integer posuere erat a ante ultricies nisi vel augue
+                                    quam semper libero.
+                                 </p>
+                                 <footer>Brian Krzanich, Intel CEO</footer>
+                              </blockquote>
+                           </li>
+                           <li>
+                              <blockquote class="blockquote-color">
+                                 <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Integer posuere erat a ante ultricies nisi vel augue
+                                    quam semper libero.
+                                 </p>
+                                 <footer>Brian Krzanich, Intel CEO</footer>
+                              </blockquote>
+                           </li>
+                           <li>
+                              <blockquote class="blockquote-color">
+                                 <p>
+                                    Dolore totam at ea reiciendis suscipit a tempore cum
+                                    nisi aspernatur nisi alias posuere erat a ante posuere
+                                    erat a ante ultricies ultricies nisi vel augue quam
+                                    semper conse erat quuntur.
+                                 </p>
+                                 <footer>Sheldon Cooper, Physical Quantum</footer>
+                              </blockquote>
+                           </li>
+                           <li>
+                              <blockquote class="blockquote-color">
+                                 <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Integer posuere erat a ante ultricies nisi vel augue
+                                    quam semper libero.
+                                 </p>
+                                 <footer>Brian Krzanich, Intel CEO</footer>
+                              </blockquote>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="row">
+                           <div class="col-md-3 col-sm-3 col-xs-6">
+                              <img
+                                 src="assets/img/demo/intel.png"
+                                 alt=""
+                                 class="img-responsive"
+                                 />
+                           </div>
+                           <div class="col-md-3 col-sm-3 col-xs-6">
+                              <img
+                                 src="assets/img/demo/microsoft.png"
+                                 alt=""
+                                 class="img-responsive"
+                                 />
+                           </div>
+                           <div class="col-md-3 col-sm-3 col-xs-6">
+                              <img
+                                 src="assets/img/demo/nokia.png"
+                                 alt=""
+                                 class="img-responsive"
+                                 />
+                           </div>
+                           <div class="col-md-3 col-sm-3 col-xs-6">
+                              <img
+                                 src="assets/img/demo/samsung.png"
+                                 alt=""
+                                 class="img-responsive"
+                                 />
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-md-3 col-sm-3 col-xs-6">
+                              <img
+                                 src="assets/img/demo/anz.png"
+                                 alt=""
+                                 class="img-responsive"
+                                 />
+                           </div>
+                           <div class="col-md-3 col-sm-3 col-xs-6">
+                              <img
+                                 src="assets/img/demo/maxis.png"
+                                 alt=""
+                                 class="img-responsive"
+                                 />
+                           </div>
+                           <div class="col-md-3 col-sm-3 col-xs-6">
+                              <img
+                                 src="assets/img/demo/sony.png"
+                                 alt=""
+                                 class="img-responsive"
+                                 />
+                           </div>
+                           <div class="col-md-3 col-sm-3 col-xs-6">
+                              <img
+                                 src="assets/img/demo/hp.png"
+                                 alt=""
+                                 class="img-responsive"
+                                 />
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+            </div>
+            <!-- footer-widgets -->
+            <footer id="footer">
+               <p>&copy; 2019 <a href="#">DivyangIndia</a>, All rights reserved.</p>
+            </footer>
+         </div>
+         <!-- boxed -->
+      </div>
+      <div id="back-top">
+         <a href="#header"><i class="fa fa-chevron-up"></i></a>
+      </div>
+      <!-- Scripts -->
+      <!-- Compiled in vendors.js -->
+      <!--
+         <script src="assets/js/jquery.min.js"></script>
+         <script src="assets/js/jquery.cookie.js"></script>
+         <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+         <script src="assets/js/bootstrap.min.js"></script>
+         <script src="assets/js/bootstrap-switch.min.js"></script>
+         <script src="assets/js/wow.min.js"></script>
+         <script src="assets/js/slidebars.min.js"></script>
+         <script src="assets/js/jquery.bxslider.min.js"></script>
+         <script src="assets/js/holder.js"></script>
+         <script src="assets/js/buttons.js"></script>
+         <script src="assets/js/jquery.mixitup.min.js"></script>
+         <script src="assets/js/circles.min.js"></script>
+         <script src="assets/js/masonry.pkgd.min.js"></script>
+         <script src="assets/js/jquery.matchHeight-min.js"></script>
+         -->
+      <script src="assets/js/vendors.js"></script>
+      <!--<script type="text/javascript" src="assets/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
+         <script type="text/javascript" src="assets/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>-->
+      <script src="assets/js/styleswitcher.js"></script>
+      <!-- Syntaxhighlighter -->
+      <script src="assets/js/syntaxhighlighter/shCore.js"></script>
+      <script src="assets/js/syntaxhighlighter/shBrushXml.js"></script>
+      <script src="assets/js/syntaxhighlighter/shBrushJScript.js"></script>
+      <script src="assets/js/DropdownHover.js"></script>
+      <script src="assets/js/app.js"></script>
+      <!-- <script src="assets/js/holder.js"></script> -->
+      <script src="assets/js/index.js"></script>
+   </body>
+</html>

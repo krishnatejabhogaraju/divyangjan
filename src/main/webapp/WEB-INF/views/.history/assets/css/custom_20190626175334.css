@@ -1,0 +1,86 @@
+.p-b-15 {
+    padding-bottom: 15px;
+}
+
+/* navbar */
+
+.navbar-dark{
+    background-color: #0d485d;
+}
+.navbar-dark .dropdown .dropdown-menu{
+    background-color: #0d485d;
+}
+/* navbar */
+
+
+/* Home  start*/
+
+.header-full-title {
+    height: 63px;
+    padding-left: 155px;
+}
+
+a.dropdown-single-link:after {
+    top: 18px;
+    right: 15px;
+    content: " ";
+}
+
+a.dropdown-single-link {
+    padding-right: 15px!important;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+    margin-left: -30px;
+}
+
+div.carousel-razon {
+    background-color: none!important;
+}
+
+.carousel-block {
+    margin-top: 40px;
+}
+
+.carousel-opc-bg {
+    background-color: rgba(0, 0, 0, 0.80);
+    padding: 0 15px
+}
+
+.carousel-tab-content {
+    height: 250px;
+    overflow-y: scroll
+}
+
+
+/* Home  end*/
+
+
+/* service start */
+
+.content-container-services {
+    min-height: 57.9vh;
+}
+
+.services-pannel-acc a[data-parent="#accordioncc"] {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* stepper */
+
+.steper-desc {
+    color: #666;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.75em;
+    margin-top: 10px;
+}
+
+
+/* stepper */
+
+
+/* service  end*/

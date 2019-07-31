@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+   <title>Divyang</title>
+   <link rel="shortcut icon" href="assets/img/favicon.png" />
+   <meta name="description" content="" />
+   <!-- CSS -->
+   <link href="assets/css/preload.css" rel="stylesheet" />
+   <!-- Compiled in vendors.js -->
+   <!--
+         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+         <link href="assets/css/bootstrap-switch.min.css" rel="stylesheet">
+         <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+         <link href="assets/css/animate.min.css" rel="stylesheet">
+         <link href="assets/css/slidebars.min.css" rel="stylesheet">
+         <link href="assets/css/lightbox.css" rel="stylesheet">
+         <link href="assets/css/jquery.bxslider.css" rel="stylesheet" />
+         <link href="assets/css/buttons.css" rel="stylesheet">
+         -->
+   <link href="assets/css/vendors.css" rel="stylesheet" />
+   <link href="assets/css/syntaxhighlighter/shCore.css" rel="stylesheet" />
+   <!-- RS5.0 Stylesheet -->
+   <!--<link rel="stylesheet" type="text/css" href="assets/css/settings.css">
+         <link rel="stylesheet" type="text/css" href="assets/css/layers.css">
+         <link rel="stylesheet" type="text/css" href="assets/css/navigation.css">-->
+   <!-- stepper -->
+   <!--Import Multi Step Indicator css-->
+   <link href="stepper/css/gsi-step-indicator.min.css" rel="stylesheet" />
+   <!--Import  Step Form Wizard css-->
+   <link href="stepper/css/tsf-step-form-wizard.min.css" rel="stylesheet" />
+   <!--Import  demo css-->
+   <link href="stepper/css/demo.min.css" rel="stylesheet" />
+   <!--Plugin for validation-->
+   <link href="stepper/plugin/parsley/css/parsley.css" rel="stylesheet" />
+   <!-- stepper -->
+   <link href="assets/css/style-blue.css" rel="stylesheet" title="default" />
+   <link href="assets/css/width-full.css" rel="stylesheet" title="default" />
+   <link href="assets/css/custom.css" rel="stylesheet" title="default" />
+   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+   <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.min.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+      <![endif]-->
+</head>
+<!-- Preloader -->
+<div id="preloader">
+   <div id="status">&nbsp;</div>
+</div>
+
+<body>
+   <div class="sb-site-container">
+      <div class="boxed">
+         <header id="header-full-top" class="hidden-xs header-full">
+            <div class="container">
+               <div class="header-full-title">
+                  <h1 class="animated fadeInRight">
+                     <a href="index-2.html"> </a>
+                  </h1>
+               </div>
+               <nav class="top-nav">
+                  <ul class="top-nav-social hidden-sm">
+
+                     <li>
+                        <a href="#" class="animated fadeIn animation-delay-7 "
+                           style="border-right: solid 1px #e3e6e8;"><i class="fa ">A</i></a>
+                     </li>
+                     <li>
+                        <a href="#" class="animated fadeIn animation-delay-6 "><i class="fa ">A+</i></a>
+                     </li>
+                  </ul>
+
+
+                  <!-- dropdown -->
+                  <div class="dropdown animated fadeInDown animation-delay-13">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="fa fa-microphone"></i>
+                     </a>
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+
+                        <select style="border:none">
+                           <option>English</option>
+                           <option>Hindi</option>
+
+                        </select></a>
+
+                  </div>
+                  <!-- dropdown -->
+                  <div class="dropdown animated fadeInDown animation-delay-11">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Login</a>
+                     <div class="dropdown-menu dropdown-menu-right dropdown-login-box animated flipCenter">
+                        <form role="form">
+                           <h4>Login Form</h4>
+                           <div class="form-group">
+                              <div class="input-group login-input">
+                                 <span class="input-group-addon">
+                                    <i class="fa fa-user"></i></span>
+                                 <input type="text" class="form-control" placeholder="Username" />
+                              </div>
+                              <br />
+                              <div class="input-group login-input">
+                                 <span class="input-group-addon">
+                                    <i class="fa fa-lock"></i>
+                                 </span>
+                                 <input type="password" class="form-control" placeholder="Password" />
+                              </div>
+                              <div class="checkbox pull-left">
+                                 <input type="checkbox" id="checkbox_remember1" />
+                                 <label for="checkbox_remember1">
+                                    Remember me
+                                 </label>
+                              </div>
+                              <button type="submit" class="btn btn-ar btn-primary pull-right">
+                                 Login
+                              </button>
+                              <div class="clearfix"></div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+
+               </nav>
+            </div>
+            <!-- container -->
+         </header>
+         <!-- header-full -->
+         <nav class="navbar navbar-default navbar-header-full navbar-dark yamm navbar-static-top" role="navigation"
+            id="header">
+            <div class="container">
+               <!-- Brand and toggle get grouped for better mobile display -->
+               <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse"
+                     data-target="#bs-example-navbar-collapse-1">
+                     <span class="sr-only">Toggle navigation</span>
+                     <i class="fa fa-bars"></i>
+                  </button>
+                  <a id="ar-brand" class="navbar-brand hidden-lg hidden-md hidden-sm" href="index-2.html">
+                     <span></span></a>
+               </div>
+               <!-- navbar-header -->
+               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                     <li class="dropdown">
+                        <a href="index.html" class="dropdown-single-link">Home</a>
+                     </li>
+                     <li class="dropdown">
+                        <a href="AboutUs.html" class="dropdown-single-link">About Us</a>
+                     </li>
+                     <!-- services -->
+                     <li class="dropdown yamm-fw">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown"
+                           data-hover="dropdown">Services</a>
+                        <ul class="dropdown-menu dropdown-menu-left animated-2x animated fadeIn">
+                           <li>
+                              <div class="yamm-content">
+                                 <div class="row p-b-15">
+                                    <div class="col-md-12">
+                                       <h4 class="megamenu-block-title">Services</h4>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 col-megamenu">
+                                       <div class="megamenu-block">
+                                          <ul>
+                                             <li>
+                                                <a href="HealthCare.html"><i class="fa fa-caret-right"></i> Health
+                                                   Care
+                                                </a>
+                                             </li>
+                                             <li>
+                                                <a href="Rehabilitation.html"><i class="fa fa-caret-right"></i>
+                                                   Rehabilitation
+                                                </a>
+                                             </li>
+                                             <li>
+                                                <a href="Education.html"><i class="fa fa-caret-right"></i> Education
+                                                </a>
+                                             </li>
+                                             <li>
+                                                <a href="SkillTraining.html"><i class="fa fa-caret-right"></i> Skill
+                                                   Training & Coaching
+                                                </a>
+                                             </li>
+                                             <li>
+                                                <a href="ELearningContent.html"><i class="fa fa-caret-right"></i>
+                                                   E-Learning Content</a>
+                                             </li>
+                                          </ul>
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 col-megamenu">
+                                       <div class="megamenu-block">
+                                          <ul>
+                                             <li>
+                                                <a href="EmpPrivateSector.html"><i class="fa fa-caret-right"></i>
+                                                   Employment in Private sector</a>
+                                             </li>
+                                             <li>
+                                                <a href="EmpPublicSector.html"><i class="fa fa-caret-right"></i>
+                                                   Employment in the Public Sector</a>
+                                             </li>
+                                             <li>
+                                                <a href="SelfEmployment.html"><i class="fa fa-caret-right"></i>
+                                                   Self Employment</a>
+                                             </li>
+                                             <li>
+                                                <a href="Accessibility.html"><i class="fa fa-caret-right"></i>
+                                                   Accessibility</a>
+                                             </li>
+                                             <li>
+                                                <a href="PwDEntitlements.html"><i class="fa fa-caret-right"></i> PwD
+                                                   Entitlements & Support</a>
+                                             </li>
+                                          </ul>
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 col-megamenu">
+                                       <div class="megamenu-block">
+                                          <ul>
+                                             <li>
+                                                <a href="KnowledgeBank .html"><i class="fa fa-caret-right"></i>
+                                                   Knowledge
+                                                   Bank</a>
+                                             </li>
+                                             <li>
+                                                <a href="MatrimonySupport.html"><i class="fa fa-caret-right"></i>
+                                                   Matrimony
+                                                   Support</a>
+                                             </li>
+                                             <li>
+                                                <a href="PwDEntertainment.html"><i class="fa fa-caret-right"></i> PwD
+                                                   Entertainment</a>
+                                             </li>
+                                             <li>
+                                                <a href="PwDSports.html"><i class="fa fa-caret-right"></i> PwD
+                                                   Sports
+                                                </a>
+                                             </li>
+                                             <li>
+                                                <a href="PwDTalentcorner.html"><i class="fa fa-caret-right"></i> PwD
+                                                   Talent corner
+                                                </a>
+                                             </li>
+                                          </ul>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                        </ul>
+                     </li>
+                     <!-- services -->
+                     <li class="dropdown">
+                        <a href="Schemes.html" class="dropdown-single-link">Donors</a>
+                     </li>
+                     <li class="dropdown">
+                        <a href="ActsRules.html" class="dropdown-single-link">Contact Us</a>
+                     </li>
+
+                  </ul>
+               </div>
+               <!-- navbar-collapse -->
+            </div>
+            <!-- container -->
+         </nav>
+         <section class="carousel-section">
+            <div class="row carousel-opc-bg" style="padding: 50px;">
+               <div class="col-md-7">
+                  <div id="carousel-example-generic" class="carousel carousel-razon slide" data-ride="carousel"
+                     data-interval="5000">
+                     <!-- Wrapper for slides -->
+                     <div class="carousel-inner">
+                        <div class="item active">
+                           <div>
+                              <div class="row">
+                                 <div class="col-md-12 col-sm-7">
+                                    <div class="carousel-caption">
+                                       <div class="carousel-text">
+                                          <h1 class="animated fadeInDownBig animation-delay-7 carousel-title">
+                                             India’s 1st PwD Marketplace that will address
+                                             all the needs & requirements of every PwD in
+                                             India
+                                          </h1>
+                                          <h2 class="animated fadeInDownBig animation-delay-5  crousel-subtitle">
+                                             Our Vision
+                                          </h2>
+                                          <p class="animated fadeInUpBig animation-delay-17">
+                                             <span>The Vision of DivyangIndia is to create a
+                                                single online platform to enable any PwD
+                                                irrespective of their disability, age,
+                                                education, background or geographical location
+                                                to access information and avail any service or
+                                                access facilities spanning a variety of
+                                                aspects such as education, Health, shelter,
+                                                Skill training, job opportunities, self-
+                                                employment, healthcare needs, social-welfare
+                                                entitlements, assistive aids, scholarships
+                                                etc</span>
+                                          </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-5">
+
+                  <!-- Sidebar -->
+               </div>
+            </div>
+         </section>
+         <!-- carousel -->
+
+         <!-- Organization -->
+
+         <section class="margin-bottom">
+
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-4">
+
+                     <img src="assets/img/org.png" class="img-responsive" />
+
+                  </div>
+                  <div class="col-md-8">
+
+                     <h1 class="right-line no-margin-top">Organization</h1>
+                     <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, alias, nihil molestias libero
+                        corporis perferendis a quasi at.
+                     </p>
+                     <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, alias, nihil molestias libero
+                        corporis perferendis a quasi at. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa,
+                        alias, nihil molestias libero
+                        corporis perferendis a quasi at. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa,
+                        alias, nihil molestias libero
+                        corporis perferendis a quasi at.
+                     </p>
+                     <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, alias, nihil molestias libero
+                        corporis perferendis a quasi at. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa,
+                        alias, nihil molestias libero
+                        corporis perferendis a quasi at. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa,
+                        alias, nihil molestias libero
+                        corporis perferendis a quasi at.
+                     </p>
+
+
+                  </div>
+
+               </div>
+
+            </div>
+
+         </section>
+
+         <!-- Services -->
+         <section class="margin-bottom">
+            <div class="container services-content-box">
+
+               <div class="row">
+                  <div class="col-md-12">
+                     <h1 class="right-line no-margin-top">Services</h1>
+                  </div>
+
+               </div>
+
+               <div class="row">
+                  <div class="col-md-4">
+                     <div class="content-box box-primary">
+
+                        <img src="assets/img/services/health.png" />
+
+
+                        <h5 class="content-box-title">Health Care</h5>
+
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="content-box box-info">
+                        <img src="assets/img/services/Rehabilitation.png" />
+                        <h5 class="content-box-title">Rehabilitation</h5>
+
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="content-box box-success">
+                        <img src="assets/img/services/Education.png" />
+                        <h5 class="content-box-title">Education</h5>
+
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <hr>
+
+                  </div>
+
+               </div>
+
+               <div class="row">
+                  <div class="col-md-4">
+                     <div class="content-box box-warning">
+                        <img src="assets/img/services/SkillTraining&Coaching.png" />
+                        <h5 class="content-box-title">Skill Training & Coaching</h5>
+
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="content-box box-danger">
+
+                        <img src="assets/img/services/E-LearningContent.png" />
+                        <h5 class="content-box-title">E-Learning Content</h5>
+
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="content-box box-royal">
+                        <img src="assets/img/services/EmploymentinPrivatesector.png" />
+                        <h5 class="content-box-title">Employment in Private sector</h5>
+
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <hr>
+
+                  </div>
+
+               </div>
+               <div class="row">
+                  <div class="col-md-4">
+                     <div class="content-box  color-7">
+                        <img src="assets/img/services/EmploymentinthePublicSector.png" />
+                        <h5 class="content-box-title">Employment in the Public Sector</h5>
+
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="content-box color-8">
+                        <img src="assets/img/services/SelfEmployment.png" />
+                        <h5 class="content-box-title">Self Employment</h5>
+
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="content-box color-9">
+                        <img src="assets/img/services/Accessibility.png" />
+                        <h5 class="content-box-title">Accessibility</h5>
+
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <hr>
+
+                  </div>
+
+               </div>
+
+               <div class="row">
+                  <div class="col-md-4">
+                     <div class="content-box  color-10">
+                        <img src="assets/img/services/PwDEntitlements&Support.png" />
+                        <h5 class="content-box-title">PwD Entitlements & Support</h5>
+
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="content-box color-11">
+                        <img src="assets/img/services/KnowledgeBank.png" />
+                        <h5 class="content-box-title">Knowledge Bank</h5>
+
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="content-box color-12">
+                        <img src="assets/img/services/MatrimonySupport.png" />
+                        <h5 class="content-box-title">Matrimony Support</h5>
+
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <hr>
+
+                  </div>
+
+               </div>
+               <div class="row">
+                  <div class="col-md-4">
+                     <div class="content-box color-13">
+                        <img src="assets/img/services/PwDEntertainment.png" />
+                        <h5 class="content-box-title">PwD Entertainment</h5>
+
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="content-box color-14">
+                        <img src="assets/img/services/PwDSports.png" />
+                        <h5 class="content-box-title">PwD Sports</h5>
+
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="content-box color-15">
+                        <img src="assets/img/services/PwDTalentcorner.png" />
+                        <h5 class="content-box-title">PwD Talent corner</h5>
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!-- success stories -->
+
+         <section class="margin-bottom">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <h1 class="right-line no-margin-top">Success Stories</h1>
+                  </div>
+
+               </div>
+
+               <section class="carousel-section" style="background-image: none; background-image: linear-gradient( 243.4deg, rgba(0,215,206,1) 13%, rgba(0,132,255,1) 98% );">
+                  <div id="carousel-example-generic1" class="carousel carousel-razon slide" data-ride="carousel"
+                     data-interval="5000">
+                     <!-- Indicators -->
+                     <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic1" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic1" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic1" data-slide-to="2"></li>
+                     </ol>
+
+                     <!-- Wrapper for slides -->
+                     <div class="carousel-inner">
+                        <div class="item active">
+
+                           <div class="row" style="padding:30px;">
+
+                              <div class="col-md-offset-2 col-md-8 sucess-story-item">
+
+                                 <img src="assets/img/demo/client.jpg" class="sucess-story-avatar">
+
+                                 <h4>Lorem ipsum dolor </h4>
+                                 <p class="em-primary-inverse" style="display: inline;">Iure deleniti</p>
+
+                                 <p style="margin-top:15px">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sint corporis animi
+                                    deleniti odit similique vitae vero dolorem autem! Possimus aut rem aliquid ex eos
+                                    tempora corrupti, labore quas officiis!
+                                 </p>
+
+
+
+
+                              </div>
+
+                           </div>
+
+                        </div>
+                        <div class="item ">
+
+                           <div class="row" style="padding:30px;">
+
+                              <div class="col-md-offset-2 col-md-8 sucess-story-item">
+
+                                 <img src="assets/img/demo/client.jpg" class="sucess-story-avatar">
+
+                                 <h4>Lorem ipsum dolor </h4>
+                                 <p class="em-primary-inverse" style="display: inline;">Iure deleniti</p>
+
+                                 <p style="margin-top:15px">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sint corporis animi
+                                    deleniti odit similique vitae vero dolorem autem! Possimus aut rem aliquid ex eos
+                                    tempora corrupti, labore quas officiis!
+                                 </p>
+
+
+
+
+                              </div>
+
+                           </div>
+
+                        </div>
+                        <div class="item ">
+
+                           <div class="row" style="padding:30px;">
+
+                              <div class="col-md-offset-2 col-md-8 sucess-story-item">
+
+                                 <img src="assets/img/demo/client.jpg" class="sucess-story-avatar">
+
+                                 <h4>Lorem ipsum dolor </h4>
+                                 <p class="em-primary-inverse" style="display: inline;">Iure deleniti</p>
+
+                                 <p style="margin-top:15px">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sint corporis animi
+                                    deleniti odit similique vitae vero dolorem autem! Possimus aut rem aliquid ex eos
+                                    tempora corrupti, labore quas officiis!
+                                 </p>
+
+
+
+
+                              </div>
+
+                           </div>
+
+                        </div>
+
+
+                     </div>
+
+                     <!-- Controls -->
+                     <a class="left carousel-control" href="#carousel-example-generic1" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                     </a>
+                     <a class="right carousel-control" href="#carousel-example-generic1" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                     </a>
+                  </div>
+               </section>
+            </div>
+         </section>
+
+
+         <!-- supporters -->
+
+
+         <section class="margin-bottom">
+               <div class="container">
+
+                     <div class="row">
+                           <div class="col-md-12">
+                              <h1 class="right-line no-margin-top">Success Stories</h1>
+                           </div>
+         
+                        </div>
+                     <div class="row">
+                       <div class="col-md-12">
+                                 <div id="Carousel" class="carousel  carousel-s slide">
+                                  
+                                 <ol class="carousel-indicators">
+                                     <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+                                     <li data-target="#Carousel" data-slide-to="1"></li>
+                                     <li data-target="#Carousel" data-slide-to="2"></li>
+                                 </ol>
+                                  
+                                 <!-- Carousel items -->
+                                 <div class="carousel-inner">
+                                     
+                                 <div class="item active">
+                                    <div class="row">
+                                      <div class="col-md-3"><a href="#" class="thumbnail"><img src="assets/img/support/1.png" alt="Image" style="max-width:100%;"></a></div>
+                                      <div class="col-md-3"><a href="#" class="thumbnail"><img src="assets/img/support/2.png" alt="Image" style="max-width:100%;"></a></div>
+                                      <div class="col-md-3"><a href="#" class="thumbnail"><img src="assets/img/support/3.png" alt="Image" style="max-width:100%;"></a></div>
+                                      <div class="col-md-3"><a href="#" class="thumbnail"><img src="assets/img/support/1.png" alt="Image" style="max-width:100%;"></a></div>
+                                    </div><!--.row-->
+                                 </div><!--.item-->
+                                  
+                                 <div class="item">
+                                    <div class="row">
+                                      
+                                          <div class="col-md-3"><a href="#" class="thumbnail"><img src="assets/img/support/1.png" alt="Image" style="max-width:100%;"></a></div>
+                                          <div class="col-md-3"><a href="#" class="thumbnail"><img src="assets/img/support/2.png" alt="Image" style="max-width:100%;"></a></div>
+                                          <div class="col-md-3"><a href="#" class="thumbnail"><img src="assets/img/support/3.png" alt="Image" style="max-width:100%;"></a></div>
+                                          <div class="col-md-3"><a href="#" class="thumbnail"><img src="assets/img/support/1.png" alt="Image" style="max-width:100%;"></a></div>
+                                    </div><!--.row-->
+                                 </div><!--.item-->
+                                  
+                                 <div class="item">
+                                    <div class="row">
+                                          <div class="col-md-3"><a href="#" class="thumbnail"><img src="assets/img/support/1.png" alt="Image" style="max-width:100%;"></a></div>
+                                          <div class="col-md-3"><a href="#" class="thumbnail"><img src="assets/img/support/2.png" alt="Image" style="max-width:100%;"></a></div>
+                                          <div class="col-md-3"><a href="#" class="thumbnail"><img src="assets/img/support/3.png" alt="Image" style="max-width:100%;"></a></div>
+                                          <div class="col-md-3"><a href="#" class="thumbnail"><img src="assets/img/support/1.png" alt="Image" style="max-width:100%;"></a></div>
+                                    </div><!--.row-->
+                                 </div><!--.item-->
+                                  
+                                 </div><!--.carousel-inner-->
+                                   <a data-slide="prev" href="#Carousel" class="left carousel-control carousel-control1"><i class="fa fa-chevron-left" style="margin-top: 9px;font-size: 14px;" aria-hidden="true"></i></a>
+                                   <a data-slide="next" href="#Carousel" class="right carousel-control carousel-control1"><i class="fa fa-chevron-right" style="margin-top: 9px;font-size: 14px;" aria-hidden="true"></i></a>
+                                 </div><!--.Carousel-->
+                                  
+                       </div>
+                    </div>
+                 </div><!--.container-->
+
+
+         </section>
+         <aside id="footer-widgets" style="font-size: 85%;">
+               <div class="container">
+                   <div class="row">
+                       <div class="col-md-3">
+                          
+                           <h3 class="footer-widget-title">Organisation</h3>
+                           <p>Lorem ipsum Amet fugiat elit nisi anim mollit minim labore ut esse Duis ullamco ad dolor veniam velit.</p>
+                           <p>Lorem ipsum Amet fugiat elit nisi anim mollit minim labore ut esse Duis ullamco ad dolor veniam velit.</p>
+                      
+                       </div>
+                       <div class="col-md-2">
+                           <div class="footer-widget">
+                               <h3 class="footer-widget-title">Social Links</h3>
+                               <div class="row">
+                                   <div class="col-md-12">
+                                       <ul class="list-inline social-icon">
+                                             <li><a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                             <li><a href="#"> <i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                             <li><a href="#"> <i class="fa fa-linkedin" aria-hidden="true"></i></a></li>       
+                                             <li><a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i></a></li>       
+                                           </ul>
+                                   </div>
+                                  
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-md-4">
+                           <div class="footer-widget">
+                               <h3 class="footer-widget-title">Tweets</h3>
+                               <div class="media">
+                                   <a class="pull-left" href="#"><img class="media-object" src="assets/img/demo/m2.jpg" width="75" height="75" alt="image"></a>
+                                   <div class="media-body">
+                                       <h4 class="media-heading"><a href="#">Lorem ipsum Duis quis occaecat minim lorem ipsum tempor officia labor</a></h4>
+                                       <small>August 18, 2013</small>
+                                   </div>
+                               </div>
+                               <div class="media">
+                                   <a class="pull-left" href="#"><img class="media-object" src="assets/img/demo/m11.jpg" width="75" height="75" alt="image"></a>
+                                   <div class="media-body">
+                                       <h4 class="media-heading"><a href="#">Lorem ipsum dolor excepteur sunt in lorem ipsum cillum tempor</a></h4>
+                                       <small>September 14, 2013</small>
+                                   </div>
+                               </div>
+                         
+                           </div>
+                       </div>
+                     
+                       <div class="col-md-3">
+                           <div class="footer-widget">
+                               <h3 class="footer-widget-title">Contact Us</h3>
+                               <div class="row">
+                                   <div class="col-md-12">
+                                      
+                                      <p>
+                                         Lorem ipsum dolor sit amet,
+                                      </p>
+                                      <p>
+                                         Lorem ipsum -25333,
+                                      </p>
+                                      <p>
+                                         Phone No - 992222225452,
+                                      </p>
+                                       
+                                   </div>
+                                   
+                               </div>
+                           </div>
+                       </div>
+                   </div> <!-- row -->
+               </div> <!-- container -->
+           </aside>
+         <!-- footer-widgets -->
+         <footer id="footer">
+            <!-- <p>&copy; 2019 <a href="#">DivyangIndia</a>, All rights reserved.</p> -->
+
+            <div class="container">
+
+               <div class="row">
+                  <div class="col-md-6 vistors-count text-left">
+Visitors <span>0</span> <span>7</span><span>0</span><span>0</span>
+                  </divc>
+
+               </div>
+               <div class=col-md-6>
+
+                     <p style="margin-top: 10px;">Powred by <a href="#">BLUEFROG MOBILE TECHNOLOGIES PVT.LTD</a></p>
+
+               </div>
+            </div>
+         </footer>
+      </div>
+      <!-- boxed -->
+   </div>
+   <div id="back-top">
+      <a href="#header"><i class="fa fa-chevron-up"></i></a>
+   </div>
+   <!-- Scripts -->
+   <!-- Compiled in vendors.js -->
+   <!--
+         <script src="assets/js/jquery.min.js"></script>
+         <script src="assets/js/jquery.cookie.js"></script>
+         <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+         <script src="assets/js/bootstrap.min.js"></script>
+         <script src="assets/js/bootstrap-switch.min.js"></script>
+         <script src="assets/js/wow.min.js"></script>
+         <script src="assets/js/slidebars.min.js"></script>
+         <script src="assets/js/jquery.bxslider.min.js"></script>
+         <script src="assets/js/holder.js"></script>
+         <script src="assets/js/buttons.js"></script>
+         <script src="assets/js/jquery.mixitup.min.js"></script>
+         <script src="assets/js/circles.min.js"></script>
+         <script src="assets/js/masonry.pkgd.min.js"></script>
+         <script src="assets/js/jquery.matchHeight-min.js"></script>
+         -->
+   <script src="assets/js/vendors.js"></script>
+   <!--<script type="text/javascript" src="assets/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
+         <script type="text/javascript" src="assets/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>-->
+   <script src="assets/js/styleswitcher.js"></script>
+   <!-- Syntaxhighlighter -->
+   <script src="assets/js/syntaxhighlighter/shCore.js"></script>
+   <script src="assets/js/syntaxhighlighter/shBrushXml.js"></script>
+   <script src="assets/js/syntaxhighlighter/shBrushJScript.js"></script>
+   <script src="assets/js/DropdownHover.js"></script>
+   <script src="assets/js/app.js"></script>
+   <!-- <script src="assets/js/holder.js"></script> -->
+   <script src="assets/js/index.js"></script>
+</body>
+
+</html>
